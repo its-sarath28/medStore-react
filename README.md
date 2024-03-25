@@ -13,9 +13,10 @@ This is a Med-Store web application built by using the ReactJS
 # App Features
 
 - User can view all the medicines
+- User can add new medicine to the list
+- User can search for specific medicine in the list
 - User can edit medicines
 - User can delete medicines
-- Validation using express validator
 - Success & error message popups
 
 # Start the app
