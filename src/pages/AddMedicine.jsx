@@ -112,6 +112,7 @@ const AddMedicine = () => {
                       type="date"
                       name="expiry_date"
                       className="form-control"
+                      placeholder="Expiry date"
                       value={medicineData.expiry_date}
                       onChange={handleInputChange}
                     />

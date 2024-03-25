@@ -1,8 +1,45 @@
-# React + Vite
+# Med Store Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](./src/assets/Webapp-Images/home.png)
 
-Currently, two official plugins are available:
+This is a Med-Store web application built by using the ReactJS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
+
+**Client:** React, Bootstrap
+
+**API:** `https://documenter.getpostman.com/view/7509819/2s8YzL4RUo#4e53ed6a-7119-438d-92ad-307190c7eea3`
+
+# App Features
+
+- User can view all the medicines
+- User can edit medicines
+- User can delete medicines
+- Validation using express validator
+- Success & error message popups
+
+# Start the app
+
+Clone the Project
+
+```
+git clone https://github.com/its-sarath28/medStore-react.git
+```
+
+Go to project directory
+
+```
+cd [folder_name]
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Start the server
+
+```
+npm run dev
+```
