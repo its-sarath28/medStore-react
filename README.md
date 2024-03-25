@@ -8,7 +8,7 @@ This is a Med-Store web application built by using the ReactJS
 
 **Client:** React, Bootstrap
 
-**API:** `https://documenter.getpostman.com/view/7509819/2s8YzL4RUo#4e53ed6a-7119-438d-92ad-307190c7eea3`
+**API:** `https://documenter.getpostman.com/view/7509819/2s8YzL4RUo`
 
 # App Features
 
