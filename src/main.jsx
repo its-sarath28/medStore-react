@@ -14,6 +14,7 @@ import AddMedicine from "./pages/AddMedicine.jsx";
 import UserProvider from "./context/userContext.jsx";
 import Logout from "./pages/Logout.jsx";
 import EditMedicine from "./pages/EditMedicine.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <ListMedicines /> },
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
   { path: "/auth/logout", element: <Logout /> },
   { path: "/add-medicine", element: <AddMedicine /> },
   { path: "/edit-medicine/:medicineId", element: <EditMedicine /> },
+  { path: "*", element: <NotFound /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
