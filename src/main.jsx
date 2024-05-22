@@ -11,6 +11,7 @@ import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
 import ListMedicines from "./pages/ListMedicines.jsx";
 import AddMedicine from "./pages/AddMedicine.jsx";
+import ViewMedicine from "./pages/ViewMedicine.jsx";
 import UserProvider from "./context/userContext.jsx";
 import Logout from "./pages/Logout.jsx";
 import EditMedicine from "./pages/EditMedicine.jsx";
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
   { path: "/auth/logout", element: <Logout /> },
   { path: "/add-medicine", element: <AddMedicine /> },
   { path: "/edit-medicine/:medicineId", element: <EditMedicine /> },
+  { path: "/view-medicine/:medicineId", element: <ViewMedicine /> },
   { path: "*", element: <NotFound /> },
 ]);
 

@@ -9,6 +9,7 @@ import { UserContext } from "../context/userContext";
 import Navbar from "../components/Navbar";
 import Loader from "../components/Loader";
 import DeleteConfirmModal from "../components/DeleteConfirmModal";
+import ViewModal from "./ViewMedicine";
 
 const ListMedicines = () => {
   const [medicineData, setMedicineData] = useState([]);
@@ -187,6 +188,12 @@ const ListMedicines = () => {
                         <td>{medicine.company}</td>
                         <td>{medicine.expiry_date}</td>
                         <td className="d-flex flex-column flex-md-row gap-3">
+                          <Link
+                            to={`/view-medicine/${medicine.id}`}
+                            className="btn btn-light"
+                          >
+                            View
+                          </Link>
                           <Link
                             to={`/edit-medicine/${medicine.id}`}
                             className="btn btn-primary"
